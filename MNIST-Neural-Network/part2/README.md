@@ -3,7 +3,7 @@
 <h4>How to use these files</h4>
 
 ```
-git clone
+git clone https://github.com/abrahamrhoffman/MEETUP.git
 cd MEETUP/MNIST-Neural-Network/part2
 
 # A demonstration of how to download the MNIST dataset
