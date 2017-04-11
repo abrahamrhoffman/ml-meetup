@@ -1,7 +1,10 @@
 # Phoenix ML
 <h3>MNIST Part 2</h3>
-<h4>How to use these files</h4>
-
+Install Requirements:
+```
+pip install tensorflow pandas numpy
+```
+<h4>MNIST Dataset Manipulation</h4>
 ```
 git clone https://github.com/abrahamrhoffman/MEETUP.git
 cd MEETUP/MNIST-Neural-Network/part2
@@ -21,3 +24,11 @@ bash ../mnist-validate-create.sh
 ```
 
 Now you should understand how to obtain, extract, convert and split the MNIST database.
+
+<h4>MNIST Dataset Simple Visualization</h4>
+
+```
+# Above, we converted binary to row vectors and row vectors to CSV.
+# Now, let's import the CSVs into 
+
+```
