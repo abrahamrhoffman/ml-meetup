@@ -88,3 +88,24 @@ Training Step:2300  Accuracy =  0.9175  Loss = 0.315661
 Training Step:2400  Accuracy =  0.9176  Loss = 0.314034
 Training Step:2500  Accuracy =  0.918  Loss = 0.312503
 ```
+
+Congatulations! You just trained a neural network to recognize handwritten digits! (Read through the extensive comments inside "our-first-mnist-nn.py" for more details
+
+<h3>Tensorboard Visualizations</h3>
+
+To provide more intuition on what is happening. Let's use tensorboard.
+
+```
+# Make a new folder called "embeddings"
+mkdir embeddings
+
+# Train our MNIST Neural Network and output visual log files to our new folder
+python tensorboard-embeddings.py --log_dir ./embeddings
+
+# Run Tensorboard to view the visuals!
+tensorboard --logdir=./embeddings
+
+# Go to http://localhost:6006 to view the webpage
+```
+
+Be sure to click the "Embeddings" tab, then choose "class" on the left hand side to view colors. For a real show, click the t-SNE tab!
