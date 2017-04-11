@@ -4,7 +4,9 @@ Install Requirements:
 ```
 pip install tensorflow pandas numpy
 ```
+
 <h4>MNIST Dataset Manipulation</h4>
+
 ```
 git clone https://github.com/abrahamrhoffman/MEETUP.git
 cd MEETUP/MNIST-Neural-Network/part2
