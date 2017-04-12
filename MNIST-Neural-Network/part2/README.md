@@ -1,4 +1,4 @@
-# Phoenix ML
+# Phoenix AI & Machine Learning
 <h3>MNIST Part 2</h3>
 Install Requirements:
 
